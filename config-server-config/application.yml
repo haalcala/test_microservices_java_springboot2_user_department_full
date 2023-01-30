@@ -1,5 +1,11 @@
 
-spring.zipkin.base-url: http://localhost:9411/
+spring:
+  zipkin:
+    base-url: http://localhost:9411/
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306
+    username: root
+    password: harold123
 
 eureka:
   client:
